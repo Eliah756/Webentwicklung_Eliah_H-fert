@@ -1,3 +1,44 @@
+
+
+
+
+
+
+
+
+
+
+js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Idee
 Ich entwickle einen kleinen Webshop, der nur als Rahmen dient: Auf der Startseite
 
