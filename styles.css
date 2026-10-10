@@ -1,3 +1,58 @@
+
+body {
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /*  Margin Seitenabstand */
+
+  margin: 20px;
+  background: #f5f5f5;
+  color: #333;                                              
+
+ }
+
+ header {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* breite 100 px*/
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.produkte {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 p {
 
   background: rgb(154, 154, 172);
@@ -9,7 +64,7 @@ p {
     font-family: "Akronim", cursive;
 }
 
-/* Färbt alle h3-Überschriften auf der Website blau ein */
+ Färbt alle h3-Überschriften auf der Website blau ein 
 h3 {
     backgroudn: black;
   color: white;
@@ -44,5 +99,6 @@ mainNav {
 }
 
 :root {
-  --my-color: rgb(200, 50, 50); /* gut für dark mode  aber braucht man java skript*/
+  --my-color: rgb(200, 50, 50);  gut für dark mode  aber braucht man java skript
 }
+*/
