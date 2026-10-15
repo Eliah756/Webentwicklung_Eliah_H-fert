@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support-123 Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+
+
+<body>
+
+
+    <header>
+        <h1>123 Shop - Support</h1>
+
+
+
+
+
+    </header>
+
+
+
+    <!-- Hauptinhalt der Webseite -->
+    <main>
+        <h2> Support-Ticket erstellen </h2>
+
+        <p>Hast du ein Problem mit einem Produkt? Sende uns einfach ein Ticket:</p>
+
+        <!-- Fromular -->
+        <form>
+            <!-- 1. Das Label-Element dient als Beschriftung für das Eingabefeld.
+            Das Attribut for="email-feld" verknüpft dieses Label elektronisch mit dem Input-Feld, 
+            das die identische ID "email-feld" besitzt. -->
+
+            <label for="email">Deine E-Mail-Adresse:</label><br>
+
+
+
+            <!-- 2. Das Input-Element ist das eigentliche Eingabefeld.
+            - type="email" sorgt dafür, dass der Browser prüft, ob ein "@"-Zeichen eingegeben wurde.
+            - id="email-feld" ist der eindeutige Name für dieses Feld auf der Seite, damit das Label es findet.
+            - name="email" ist der Name, unter dem die Daten später an den Server geschickt werden. -->
+
+
+            <input type="email" id="email" placeholder="name@beispiel.de" required>
+
+            <!--br: erzwingt zeilenumbruch-->
+            <br><br>
+
+            <label for="problem">Problemstellung:</label><br>
+
+
+            <textarea id="problem" rows="5" cols="40" placeholder="Beschreibe dein Problem hier..." required></textarea>
+
+
+            <br><br>
+            <button type="submit">Ticket absenden</button>
+
+        </form >
+
+            <br>
+            <p><a href="Index.html">← Zurück zum Shop</a></p>
+    </main>
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+    <!-- Fußzeile der Webseite -->
+    <footer>
+
+         <p><a href="Impressum.html">Impressum</a></p>
+
+
+
+
+
+
+
+    </footer>
+
+</body>
+
+</html>

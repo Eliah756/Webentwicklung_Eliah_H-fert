@@ -1,3 +1,59 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px; /* Abstand zum Browserrand */
+  background: #f5f5f5;
+  color: #333;                                              
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px; /* Innenabstand für den Text */
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto; /* zentriert den Hauptbereich */
+  padding: 20px;
+}
+
+.produkte {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 gleich große Spalten */
+  gap: 20px; /* Abstand zwischen den Produkten */
+}
+
+/* Bilder im Produktbereich verkleinern */
+article img {
+  width: 150px;
+  height: auto; /* behält das Seitenverhältnis bei */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 p {
 
   background: rgb(154, 154, 172);
@@ -9,7 +65,7 @@ p {
     font-family: "Akronim", cursive;
 }
 
-/* Färbt alle h3-Überschriften auf der Website blau ein */
+ Färbt alle h3-Überschriften auf der Website blau ein 
 h3 {
     backgroudn: black;
   color: white;
@@ -44,5 +100,6 @@ mainNav {
 }
 
 :root {
-  --my-color: rgb(200, 50, 50); /* gut für dark mode  aber braucht man java skript*/
+  --my-color: rgb(200, 50, 50);  gut für dark mode  aber braucht man java skript
 }
+*/
