@@ -1,35 +1,130 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin: 20px; /* Abstand zum Browserrand */
+  margin: 20px;
+  /* Abstand zum Browserrand */
   background: #f5f5f5;
-  color: #333;                                              
+  color: #333;
 }
 
 header {
   background: #2c3e50;
   color: white;
   text-align: center;
-  padding: 20px; /* Innenabstand für den Text */
+  padding: 20px;
+  /* Innenabstand für den Text */
 }
 
 main {
   max-width: 1000px;
-  margin: 0 auto; /* zentriert den Hauptbereich */
+  margin: 0 auto;
+  /* zentriert den Hauptbereich */
   padding: 20px;
 }
 
 .produkte {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 gleich große Spalten */
-  gap: 20px; /* Abstand zwischen den Produkten */
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 gleich große Spalten */
+  gap: 20px;
+  /* Abstand zwischen den Produkten */
+}
+
+
+/* Macht aus jedem Produkt eine schicke weiße Karte, wie ein Rahmen*/
+article {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  /* abgerundete Ecken */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* leichter Schatten */
+
+ /* Spalten-Layout für das Produkt */
+  display: flex;
+  flex-direction: column;
 }
 
 /* Bilder im Produktbereich verkleinern */
 article img {
   width: 150px;
-  height: auto; /* behält das Seitenverhältnis bei */
+  height: auto;
+  /* behält das Seitenverhältnis bei */
+  object-fit: contain;
+  /*verhindert verzerrung udn schneidet nichts ab*/
+  margin: 0 auto 15px auto;
+  /*zentriert die bilder in ihren karten mittig*/
 }
 
+article button {
+  margin-top: auto;
+  /* Drückt den Button ganz nach unten auf eine Linie! */
+}
+
+button {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Mauszeiger wird zum Zeigefinger */
+}
+
+button:hover {
+  background-color: #34495e;
+  /* wird beim Drüberfahren leicht heller */
+}
+
+
+
+
+/*Tabellen stylen*/
+
+
+table {
+  width: 100%;
+  /* nutzt die volle Breite des Bildschirms */
+  border-collapse: collapse;
+  /*  verschmilzt doppelte Linien zu einer sauberen Kante */
+  background: white;
+  /* weiße Tabelle wie die Produktkarten */
+  border-radius: 8px;
+  /* abgerundete Ecken */
+  overflow: hidden;
+  /*  Ecken bleiben rund bleiben */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /*  Schatten */
+}
+
+/* Innenabstand für alle Zellen */
+th,
+td {
+  padding: 12px 15px;
+  /* Text klebt nicht mehr am Rand */
+  text-align: left;
+  /* linksbündiger Text */
+  border-bottom: 1px solid #ddd;
+  /*  graue Trennlinie unter jeder Zeile */
+}
+
+/* Dunkelblauer Tabellenkopf (passend zu  Header) */
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+/*Support-Seite*/
+
+
+/* Macht die Eingabefelder im Support-Formular schön breit */
+input[type="email"], textarea {
+  width: 100%;
+  max-width: 500px; /* wird nicht breiter als 500px */
+  padding: 8px; /* angenehmer Innenabstand zum Tippen */
+  border: 1px solid #ccc;
+  border-radius: 4px; /* leicht abgerundet */
+  box-sizing: border-box;
+}
 
 
 

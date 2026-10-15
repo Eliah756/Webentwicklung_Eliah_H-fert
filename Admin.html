@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Seite</title>
-  </head>
-  <body>
-    
-    <p>Admin-Bereich</p>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin – 123 Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>123 Shop – Admin-Bereich</h1>
+  </header>
+
+  <main>
+
+    <h2>Eingegangene Support-Tickets</h2>
+    <p>Übersicht aller eingegangenen Kundenanfragen und Störungsmeldungen zur Bearbeitung und Statusverwaltung.</p>
+
+    <table>
+      <!--thead: Table Head (Kopfbereich)-->
+      <thead>
+
+
+        <!--tr: Table row-->
+        <tr>
+          <!--th: Table header-->
+          <th>Ticket-ID</th>
+          <th>Kunden-Kontakt</th>
+          <th>Fehlerbeschreibung</th>
+          <th>Eingangsdatum</th>
+          <th>Status</th>
+          <th>Aktionen</th>
+        </tr>
+
+      </thead>
+
+      <tbody>
+        <tr>
+          <!--td: Table Data (normale Zelle)-->
+          <td>#1001</td>
+          <td>m.schmidt@beispiel.de</td>
+          <td>Bluetooth-Kopplung bricht nach Firmware-Update ab</td>
+          <td>14.10.2026</td>
+          <td>Offen</td>
+          <td>
+            <button>Erledigt</button>
+            <button>Löschen</button>
+          </td>
+        </tr>
+
+        <tr>
+          <!--td: Table Data (normale Zelle)-->
+          <td>#1002</td>
+          <td>rainerzufall@gmail.com</td>
+          <td>Tastatur tasten geben keine ausgabe aus </td>
+          <td>15.10.2026</td>
+          <td>erledigt</td>
+          <td>
+            <button>Erledigt</button>
+            <button>Löschen</button>
+          </td>
+        </tr>
+
+
+
+        <tr>
+          <!--td: Table Data (normale Zelle)-->
+          <td>#1003</td>
+          <td>wuttobi@gmx.de</td>
+          <td>Precision Pro maus lässt sich nicht laden </td>
+          <td>12.10.2026</td>
+          <td>Offen</td>
+          <td>
+            <button>Erledigt</button>
+            <button>Löschen</button>
+          </td>
+        </tr>
+
+
+      </tbody>
+
+    </table>
+
+    <br>
+    <p><a href="Index.html">← Zurück zur Shop-Übersicht</a></p>
+
+
+
+
+
+  </main>
+
+  <footer>
+    <hr>
+    <p><a href="Impressum.html">Impressum</a></p>
+  </footer>
+
+</body>
+
 </html>
